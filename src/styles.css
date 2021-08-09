@@ -31,6 +31,18 @@
   width: 100%;
   text-align: center;
 }
+.card-result {
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  border-radius: 2px;
+  display: inline-block;
+  height: auto;
+  margin: 3rem auto;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
 
 .card-4 {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);

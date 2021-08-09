@@ -29,7 +29,7 @@ function compareValues(birthdateSum, luckyValue) {
     image.src = "./happy_birthday.svg";
   } else {
     outputDiv.style.display = "block";
-    outputText.innerText = "Your is not lucky 🤦‍♂️!..";
+    outputText.innerText = "Your birthdate is not lucky 🤦‍♂️!..";
     image.src = "./sad_birthdate.svg";
   }
 }
