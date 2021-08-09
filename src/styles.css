@@ -110,5 +110,63 @@ button {
 }
 
 .result {
-  display: block;
+  display: none;
+}
+
+.card-footer {
+  border-radius: 2px;
+  display: inline-block;
+  height: auto;
+  margin: 3rem auto;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--light);
+  padding: 2rem 0rem;
+  text-align: center;
+  color: black;
+  border-top-right-radius: 1rem;
+  box-shadow: 0 1px 25px var(--light);
+  margin-top: 3rem;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+  padding-inline-start: 0px;
+  color: var(--secondary-color);
+}
+.footer .link {
+  color: black;
+}
+
+.footer ul {
+  padding-left: 0px;
+}
+
+.footer-icon {
+  width: 2rem;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0.25rem;
+}
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.privacy-data {
+  color: red;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+@media (min-width: 760px) {
+  .list-item-inline {
+    padding: 0rem 0.5rem;
+  }
 }
